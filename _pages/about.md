@@ -4,10 +4,9 @@ permalink: /about/
 layout: single
 author_profile: true
 header:
+  overlay_image: /assets/images/banner.png
+  overlay_filter: rgba(75, 62, 43, 0.3)
   overlay_color: "#4B3E2B"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/about.png
-  caption: "Licensed esthetician & skincare specialist"
 ---
 
 <div class="brand-content">
@@ -46,51 +45,4 @@ header:
   <h2 class="brand-subheading">My Mission</h2>
 
   <p class="brand-text">My goal is to empower you with the knowledge and tools needed to maintain healthy, beautiful skin. Through my services and digital guides, I aim to make professional skincare guidance accessible and easy to understand.</p>
-</div>
-
-<style>
-.brand-content {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 2rem;
-  color: var(--text-color);
-}
-
-.brand-heading {
-  color: var(--secondary-color);
-  font-family: 'DM Sans', sans-serif;
-  margin-bottom: 2rem;
-}
-
-.brand-subheading {
-  color: var(--secondary-color);
-  font-family: 'DM Sans', sans-serif;
-  margin: 2rem 0 1rem;
-}
-
-.brand-text {
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  font-family: 'Merriweather', serif;
-}
-
-.brand-list {
-  list-style-type: none;
-  padding-left: 1.5rem;
-  margin: 1.5rem 0;
-}
-
-.brand-list li {
-  position: relative;
-  margin-bottom: 0.8rem;
-  padding-left: 1.5rem;
-  font-family: 'Merriweather', serif;
-}
-
-.brand-list li:before {
-  content: "•";
-  color: var(--accent-color);
-  position: absolute;
-  left: 0;
-}
-</style> 
+</div> 

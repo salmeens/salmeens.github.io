@@ -5,10 +5,9 @@ layout: single
 classes:
   - wide
 header:
+  overlay_image: /assets/images/banner.png
+  overlay_filter: rgba(75, 62, 43, 0.3)
   overlay_color: "#4B3E2B"
-  overlay_filter: "0.5"
-  overlay_image: /assets/images/book-now.png
-  caption: "Professional skincare consultations"
 ---
 
 <div class="brand-booking">
@@ -68,110 +67,4 @@ header:
   <div class="brand-form">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2iATHIGMmzpmylWVtvBfU3bvifUDfjWFLra9mDBXEKQUrOg/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
-</div>
-
-<style>
-.brand-booking {
-  display: grid;
-  grid-template-columns: 1fr 400px;
-  gap: 2rem;
-  margin: 2rem 0;
-  color: var(--text-color);
-}
-
-@media (max-width: 1024px) {
-  .brand-booking {
-    grid-template-columns: 1fr;
-  }
-}
-
-.brand-content {
-  padding-right: 2rem;
-}
-
-.brand-options {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 1.5rem;
-  margin: 2rem 0;
-}
-
-.brand-card {
-  background: var(--secondary-color);
-  border-radius: 8px;
-  padding: 1.5rem;
-  color: var(--background-color);
-}
-
-.brand-card h3 {
-  color: var(--accent-color);
-  margin: 0 0 1rem;
-}
-
-.brand-price {
-  font-size: 1.5rem;
-  font-weight: bold;
-  color: var(--background-color);
-  margin: 1rem 0;
-}
-
-.brand-list {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.brand-list li {
-  margin-bottom: 0.5rem;
-  padding-left: 1.5rem;
-  position: relative;
-}
-
-.brand-list li:before {
-  content: "✓";
-  position: absolute;
-  left: 0;
-  color: var(--accent-color);
-}
-
-.brand-section {
-  margin: 2rem 0;
-}
-
-.brand-section h2 {
-  color: var(--secondary-color);
-}
-
-.brand-section ol {
-  padding-left: 1.5rem;
-}
-
-.brand-section li {
-  margin-bottom: 1rem;
-}
-
-.brand-form {
-  background: var(--secondary-color);
-  border-radius: 8px;
-  padding: 1rem;
-  margin-top: 2rem;
-}
-
-.brand-heading {
-  color: var(--secondary-color);
-  font-family: 'DM Sans', sans-serif;
-  margin-bottom: 2rem;
-}
-
-.brand-subheading {
-  color: var(--secondary-color);
-  font-family: 'DM Sans', sans-serif;
-  margin: 2rem 0 1rem;
-}
-
-.brand-text {
-  line-height: 1.6;
-  margin-bottom: 1.5rem;
-  font-family: 'Merriweather', serif;
-}
-</style> 
+</div> 

@@ -8,6 +8,7 @@ site_logo: "/assets/images/logo.png"
 email: ""
 description: "Licensed Esthetician"
 url: "https://www.skincarewithsalmeen.com"
+baseurl: ""
 github_username: salmeens
 minimal_mistakes_skin: "custom"
 search: false
