@@ -1,0 +1,197 @@
+# This sets the site theme
+theme: "minimal-mistakes-jekyll"
+# Comment out remote theme since we're using the gem
+# remote_theme: "mmistakes/minimal-mistakes"
+
+# This controls the site's visual skin. "dark" uses a dark theme by default
+minimal_mistakes_skin: "dark"
+
+# Site Settings
+# This is the base locale of the site
+locale                   : "en-US"
+
+# Right-to-left layout setting (leave empty for English/left-to-right)
+rtl                      : 
+
+# Main site title shown in browser tab and SEO
+title                    : "Skincare with Salmeen"
+
+# Symbol used to separate title parts (e.g., "Page Title - Site Title")
+title_separator          : "-"
+
+# Optional subtitle or tagline that appears under the title in some layouts
+subtitle                 : "Professional esthetics and skincare guidance"
+
+# Author or site owner's name
+name                     : "Salmeen"
+
+# Brief site description for SEO and social previews
+description              : "Personalized esthetic services and digital skincare guides"
+
+# This should be your site URL (e.g., "https://skincarewithsalmeen.com")
+url                      : "https://skincarewithsalmeen.com"
+
+# Leave blank if hosted at root. If hosted at subpath, set like "/blog"
+baseurl                  : ""
+
+# GitHub repo path, used for SEO metadata and GitHub badges
+repository               : "salmeen/salmeen.github.io"
+
+# Optional fallback image for blog or preview cards
+teaser                   : 
+
+# Optional logo to show in header (path relative to site root)
+logo                     : 
+
+# Override masthead title display (leave empty to use site title)
+masthead_title           : 
+
+# Enable breadcrumb links on pages (true/false)
+breadcrumbs              : false
+
+# Used to estimate read time on posts/pages
+words_per_minute         : 200
+
+# Enables copy-to-clipboard buttons on code blocks (true/false)
+enable_copy_code_button  : false
+
+# Copyright notice shown in footer
+copyright: "© 2025 Skincare With Salmeen. All rights reserved."
+
+# Site verification for search engines (replace with actual keys when ready)
+google_site_verification: "GOOGLE_SITE_VERIFICATION_CODE"
+bing_site_verification: "BING_SITE_VERIFICATION_CODE"
+
+analytics:
+  # Google Analytics tracking using gtag.js (replace tracking_id with real one)
+  provider: "google-gtag"
+  google:
+    tracking_id: "G-XXXXXXXXXX"
+    anonymize_ip: true
+
+social:
+  type: "Person"
+  name: "Salmeen"
+  links:
+    - "https://facebook.com/skincarewithsalmeenbangla"
+    - "https://tiktok.com/@salmeenc"
+
+# Site Author
+author:
+  name             : "Salmeen"
+  avatar           : "/assets/images/salmeen.jpg"
+  bio              : "Licensed Esthetician & Skincare Specialist"
+  location         : "Toronto, Canada"
+  email            : "info@skincarewithsalmeen.com"
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/skincarewithsalmeenbangla"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://tiktok.com/@salmeenc"
+
+# Set timezone
+timezone: America/Toronto
+
+# Footer configuration
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/skincarewithsalmeenbangla"
+    - label: "TikTok"
+      icon: "fab fa-fw fa-tiktok"
+      url: "https://tiktok.com/@salmeenc"
+
+# Reading Files
+include:
+  - .htaccess
+  - _pages
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gruntfile.js
+  - gulpfile.js
+  - LICENSE
+  - log
+  - minimal-mistakes-jekyll.gemspec
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /docs
+  - /test
+keep_files:
+  - .git
+  - .svn
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Outputting
+permalink: /:categories/:title/
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+# Default Settings for all pages
+defaults:
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+      header:
+        overlay_color: "#000"
+        overlay_filter: "0.5"
+        # overlay_image: /assets/images/header-bg.jpg  # Default header image for all pages
