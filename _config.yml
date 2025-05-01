@@ -7,6 +7,8 @@ description: "Licensed Esthetician"
 url: "https://www.skincarewithsalmeen.com"
 baseurl: ""
 repository: "salmeens/salmeens.github.io"
+copyright: "Skincare with Salmeen"
+copyright_url: "https://www.skincarewithsalmeen.com"
 
 # Site Configuration
 minimal_mistakes_skin: "custom"

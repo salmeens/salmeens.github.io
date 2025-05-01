@@ -10,7 +10,7 @@ header:
   overlay_filter: rgba(75, 62, 43, 0.3)
   overlay_color: "#4B3E2B"
 feature_row:
-  - image_path: /assets/images/about.png
+  - image_path: /assets/images/salmeen.jpg
     alt: "About Salmeen"
     title: "Meet Salmeen"
     excerpt: "Learn about Salmeen's passion for personalized esthetics and skincare education."
