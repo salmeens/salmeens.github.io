@@ -41,7 +41,8 @@ analytics:
 author:
   name: "Salmeen"
   avatar: "/assets/images/salmeen-bio.jpg"
-  bio: "Licensed Esthetician | Skincare Educator | Content Creator"
+  bio: >
+    Licensed Esthetician &#124; Skincare Educator &#124; Content Creator
   location: "Toronto, ON, Canada"
   email: "salmeen@skincarewithsalmeen.com"
   links:
