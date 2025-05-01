@@ -86,3 +86,24 @@ $link-color-visited: $secondary-accent-color;
     }
   }
 }
+
+.brand-media {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap; // fallback for smaller screens
+  margin-top: 2em;
+}
+
+.media-static img {
+  max-width: 240px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}
+
+.media-dynamic video {
+  max-width: 360px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+}

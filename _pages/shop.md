@@ -16,9 +16,16 @@ header:
   <p class="brand-text">Access professional skincare guidance anytime with my comprehensive digital guides. Each guide is carefully crafted to help you achieve your skincare goals with expert recommendations and easy-to-follow routines.</p>
 
   <div class="brand-guide">
-    <div class="brand-thumbnail">
-      <img src="/assets/images/whats-my-skin-type-book.jpg" alt="What's My Skin Type? Book">
+    <div class="brand-media">
+      <div class="media-static">
+        <img src="/assets/images/whats-my-skin-type-book.jpg" alt="Book cover" />
+      </div>
+    <div class="media-dynamic">
+      <video autoplay loop muted playsinline>
+        <source src="/assets/videos/skin-type-preview.mp4" type="video/mp4">
+      </video>
     </div>
+  </div>
     <div class="brand-info">
       <h3 class="brand-subheading">What's My Skin Type?</h3>
       <ul class="brand-list">
