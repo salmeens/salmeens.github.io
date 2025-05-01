@@ -9,7 +9,7 @@ header:
   overlay_color: "#4B3E2B"
 ---
 
-<div class="brand-content">
+<div class="brand-section">
   <h1 class="brand-heading">About Me</h1>
 
   <p class="brand-text">I'm Salmeen, a licensed esthetician with a background in nanotechnology and over five years of experience consulting people on skincare—virtually, globally, and professionally.</p>

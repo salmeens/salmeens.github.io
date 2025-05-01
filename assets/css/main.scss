@@ -12,9 +12,11 @@
   --accent-color: #D9A679;
   --secondary-accent: #A67C52;
   --white-text: #FFFFFF;
+  --border-color: rgba(75, 62, 43, 0.1);
+  --transition-speed: 0.3s ease;
 }
 
-/* Custom styles */
+/* Base Styles */
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -29,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 a {
   color: var(--accent-color);
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  transition: color var(--transition-speed);
 
   &:hover {
     color: var(--secondary-accent);
@@ -39,7 +41,7 @@ a {
 /* Navigation */
 .masthead {
   background-color: var(--background-color);
-  border-bottom: 1px solid rgba(75, 62, 43, 0.1);
+  border-bottom: 1px solid var(--border-color);
   
   &__inner-wrap {
     padding: 0.5em 1em;
@@ -56,8 +58,8 @@ a {
     margin-right: 0.5em;
     
     img {
-      max-height: none;
       width: 100%;
+      max-height: 2.5rem;
     }
   }
 
@@ -69,13 +71,18 @@ a {
 }
 
 /* Buttons */
-.btn {
+.btn, .btn--primary {
   background-color: var(--secondary-color);
-  color: var(--white-text);
+  color: var(--white-text) !important;
   font-family: 'Merriweather', sans-serif;
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  transition: all var(--transition-speed);
   
   &:hover {
     background-color: var(--accent-color);
+    color: var(--white-text) !important;
+    transform: translateY(-2px);
   }
 }
 
@@ -84,7 +91,7 @@ a {
   margin-top: 3em;
   color: var(--text-color) !important;
   background-color: var(--background-color) !important;
-  border-top: 1px solid rgba(75, 62, 43, 0.1);
+  border-top: 1px solid var(--border-color);
 
   footer {
     margin-top: 2em;
@@ -121,47 +128,20 @@ a {
   }
 }
 
-html {
-  background-color: var(--background-color) !important;
-}
-
-/* Masthead and Logo */
-.site-logo {
-  img {
-    max-height: 2.5rem;
-    margin-right: 0.5em;
-  }
-}
-
-.site-title {
-  font-family: 'DM Sans', sans-serif;
-  font-weight: 500;
-  font-size: 1.3em;
-}
-
-.site-subtitle {
-  font-family: 'Merriweather', sans-serif;
-  font-weight: 400;
-  font-size: 0.8em;
-  font-style: italic;
-  opacity: 0.8;
-}
-
 /* Header Overlay */
 .page__hero--overlay {
   padding: 4em 0;
   
-  .page__title {
-    color: var(--white-text);
-    font-family: 'DM Sans', sans-serif;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
-    margin-bottom: 0.5em;
-  }
-  
+  .page__title,
   .page__lead,
   .page__tagline {
     color: var(--white-text);
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    font-family: 'DM Sans', sans-serif;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .page__lead,
+  .page__tagline {
     font-family: 'Merriweather', sans-serif;
     font-weight: 500;
     font-size: 1.2em;
@@ -184,71 +164,46 @@ html {
     color: var(--secondary-color);
     margin-top: 1em;
     font-size: 1.75rem;
-    text-transform: none;
   }
   
   .archive__item-excerpt {
     color: var(--text-color);
     font-size: 0.9em;
     line-height: 1.6;
-    font-family: 'Merriweather', sans-serif;
   }
-}
 
-.archive__item-teaser {
-  img {
-    border-radius: 8px;
-    transition: transform 0.3s ease;
-  }
-}
-
-.feature__item:hover {
   .archive__item-teaser img {
-    transform: translateY(-5px);
+    border-radius: 8px;
+    transition: transform var(--transition-speed);
   }
-}
 
-/* Feature Row Buttons */
-.btn--primary {
-  background-color: var(--secondary-color);
-  color: var(--white-text) !important;
-  font-family: 'Merriweather', sans-serif;
-  padding: 0.75em 1.5em;
-  border-radius: 4px;
-  transition: all 0.3s ease;
-  
   &:hover {
-    background-color: var(--accent-color);
-    color: var(--white-text) !important;
-    transform: translateY(-2px);
+    .archive__item-teaser img {
+      transform: translateY(-5px);
+    }
   }
 }
 
-/* Brand Styles */
+/* Brand Layout */
 .brand-booking {
   display: grid;
-  grid-template-columns: 1fr 400px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 400px);
   gap: 2rem;
   margin: 2rem 0;
   color: var(--text-color);
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
 
   @media (max-width: 1024px) {
     grid-template-columns: 1fr;
   }
 }
 
-.brand-content {
-  padding-right: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem;
-}
-
 .brand-options {
   display: grid;
   grid-template-columns: 1fr;
   gap: 1.5rem;
-  margin: 2rem 0;
 }
 
 .brand-card {

@@ -10,7 +10,7 @@ header:
   overlay_color: "#4B3E2B"
 ---
 
-<div class="brand-content">
+<div class="brand-section">
   <h1 class="brand-heading">Transform Your Skincare Routine</h1>
 
   <p class="brand-text">Access professional skincare guidance anytime with my comprehensive digital guides. Each guide is carefully crafted to help you achieve your skincare goals with expert recommendations and easy-to-follow routines.</p>

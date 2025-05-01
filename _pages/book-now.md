@@ -11,7 +11,7 @@ header:
 ---
 
 <div class="brand-booking">
-  <div class="brand-content">
+  <div>
     <h1 class="brand-heading">Skincare Guidance That Respects Your Skin—and Your Time</h1>
 
     <p class="brand-text">With over five years of experience consulting clients virtually, I help people cut through skincare confusion and build routines that work—realistically, sustainably, and confidently. You're not just getting product suggestions; you're getting expert insights, simplified science, and support tailored to your lifestyle.</p>
