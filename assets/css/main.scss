@@ -4,32 +4,42 @@
 /* Import Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Merriweather:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap');
 
+/* Brand Variables */
+:root {
+  --background-color: #F5F0E6;
+  --secondary-color: #4B3E2B;
+  --text-color: #222F3E;
+  --accent-color: #D9A679;
+  --secondary-accent: #A67C52;
+  --white-text: #FFFFFF;
+}
+
 /* Custom styles */
 body {
-  background-color: $background-color;
-  color: $text-color;
-  font-family: $serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: 'Merriweather', sans-serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $sans-serif;
-  color: $text-color;
+  font-family: 'DM Sans', sans-serif;
+  color: var(--secondary-color);
 }
 
 a {
-  color: $link-color;
+  color: var(--accent-color);
   text-decoration: none;
   transition: color 0.2s ease-in-out;
 
   &:hover {
-    color: $link-color-hover;
+    color: var(--secondary-accent);
   }
 }
 
 /* Navigation */
 .masthead {
-  background-color: $background-color;
-  border-bottom: 1px solid rgba($secondary-accent-color, 0.1);
+  background-color: var(--background-color);
+  border-bottom: 1px solid rgba(75, 62, 43, 0.1);
   
   &__inner-wrap {
     padding: 0.5em 1em;
@@ -39,7 +49,7 @@ a {
 }
 
 .greedy-nav {
-  background: $background-color;
+  background: var(--background-color);
 
   .site-logo {
     max-width: 50px;
@@ -52,7 +62,7 @@ a {
   }
 
   .site-title {
-    font-family: $sans-serif;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     font-size: 1.3em;
   }
@@ -60,57 +70,59 @@ a {
 
 /* Buttons */
 .btn {
-  background-color: $secondary-accent-color;
-  color: $background-color;
+  background-color: var(--secondary-color);
+  color: var(--white-text);
+  font-family: 'Merriweather', sans-serif;
   
   &:hover {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
   }
 }
 
 /* Footer */
 .page__footer {
   margin-top: 3em;
-  color: $text-color !important;
-  background-color: $background-color !important;
-  border-top: 1px solid rgba($secondary-accent-color, 0.1);
+  color: var(--text-color) !important;
+  background-color: var(--background-color) !important;
+  border-top: 1px solid rgba(75, 62, 43, 0.1);
 
   footer {
     margin-top: 2em;
     padding: 0 1em 2em;
-    background-color: $background-color !important;
+    background-color: var(--background-color) !important;
   }
 
   a {
-    color: $secondary-accent-color;
+    color: var(--secondary-color);
     
     &:hover {
-      color: $accent-color;
+      color: var(--accent-color);
     }
   }
 }
 
 .page__footer-copyright {
-  color: mix($text-color, $background-color, 60%);
-  font-family: $serif;
+  color: var(--text-color);
+  font-family: 'Merriweather', sans-serif;
+  opacity: 0.8;
 }
 
 .page__footer-follow {
-  background-color: $background-color !important;
+  background-color: var(--background-color) !important;
   
   .social-icons {
     .fa, .fab, .fas {
-      color: $secondary-accent-color;
+      color: var(--secondary-color);
       
       &:hover {
-        color: $accent-color;
+        color: var(--accent-color);
       }
     }
   }
 }
 
 html {
-  background-color: $background-color !important;
+  background-color: var(--background-color) !important;
 }
 
 /* Masthead and Logo */
@@ -122,13 +134,13 @@ html {
 }
 
 .site-title {
-  font-family: $sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-weight: 500;
   font-size: 1.3em;
 }
 
 .site-subtitle {
-  font-family: $sans-serif;
+  font-family: 'Merriweather', sans-serif;
   font-weight: 400;
   font-size: 0.8em;
   font-style: italic;
@@ -140,27 +152,74 @@ html {
   padding: 4em 0;
   
   .page__title {
+    color: var(--white-text);
+    font-family: 'DM Sans', sans-serif;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     margin-bottom: 0.5em;
   }
   
   .page__lead,
   .page__tagline {
-    color: $text-color;
+    color: var(--white-text);
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
-    font-family: $sans-serif;
+    font-family: 'Merriweather', sans-serif;
     font-weight: 500;
     font-size: 1.2em;
     opacity: 0.9;
   }
 }
 
+/* Feature Row */
+.feature__wrapper {
+  margin-top: 2em;
+}
+
+.feature__item {
+  margin-bottom: 2em;
+  font-family: 'Merriweather', sans-serif;
+  
+  .archive__item-title {
+    font-family: 'DM Sans', sans-serif !important;
+    font-weight: 500;
+    color: var(--secondary-color);
+    margin-top: 1em;
+    font-size: 1.75rem;
+    text-transform: none;
+  }
+  
+  .archive__item-excerpt {
+    color: var(--text-color);
+    font-size: 0.9em;
+    line-height: 1.6;
+    font-family: 'Merriweather', sans-serif;
+  }
+}
+
+.archive__item-teaser {
+  img {
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+}
+
+.feature__item:hover {
+  .archive__item-teaser img {
+    transform: translateY(-5px);
+  }
+}
+
 /* Feature Row Buttons */
 .btn--primary {
-  background-color: $secondary-accent-color;
-  color: $background-color;
+  background-color: var(--secondary-color);
+  color: var(--white-text) !important;
+  font-family: 'Merriweather', sans-serif;
+  padding: 0.75em 1.5em;
+  border-radius: 4px;
+  transition: all 0.3s ease;
   
   &:hover {
-    background-color: $accent-color;
+    background-color: var(--accent-color);
+    color: var(--white-text) !important;
+    transform: translateY(-2px);
   }
 } 

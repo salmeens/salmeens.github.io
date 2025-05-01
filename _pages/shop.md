@@ -32,7 +32,7 @@ header:
     <div class="brand-info">
       <h3 class="brand-subheading">What's My Skin Type?</h3>
       <p class="brand-price">Available on Amazon</p>
-      <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="brand-button" target="_blank">Buy on Amazon</a>
+      <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="btn btn--primary" target="_blank">Buy on Amazon</a>
     </div>
   </div>
 </div>
@@ -118,6 +118,7 @@ header:
 
 .brand-info {
   padding: 1.5rem;
+  text-align: center;
 }
 
 .brand-info h3 {
@@ -132,23 +133,10 @@ header:
   margin: 1rem 0;
 }
 
-.brand-button {
-  display: inline-block;
-  background: var(--accent-color);
-  color: var(--background-color) !important;
-  padding: 0.8rem 1.5rem;
-  border-radius: 4px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: background 0.3s ease;
-  width: 100%;
-  text-align: center;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.brand-button:hover {
-  background: var(--secondary-color);
-  color: var(--accent-color) !important;
+.brand-info .btn {
+  width: auto;
+  min-width: 200px;
+  margin: 0 auto;
 }
 
 .brand-subheading {

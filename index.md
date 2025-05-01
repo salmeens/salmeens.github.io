@@ -7,7 +7,8 @@ tagline: "YOUR SKIN's SAFE SPACE"
 permalink: /
 header:
   overlay_image: /assets/images/banner.png
-  overlay_filter: rgba(245, 240, 230, 0.3)
+  overlay_filter: rgba(75, 62, 43, 0.3)
+  overlay_color: "#4B3E2B"
 feature_row:
   - image_path: /assets/images/about.png
     alt: "About Salmeen"
