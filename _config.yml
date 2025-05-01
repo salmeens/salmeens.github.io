@@ -1,48 +1,47 @@
+# Site Settings
+locale: "en-CA"
 title: "Skincare with Salmeen"
-masthead_title: "Skincare with Salmeen"
 logo: "/assets/images/logo.png"
-
-# Site Logo
-site_logo: "/assets/images/logo.png"
-
-email: ""
+email: "salmeen@skincarewithsalmeen.com"
 description: "Licensed Esthetician"
 url: "https://www.skincarewithsalmeen.com"
 baseurl: ""
-github_username: salmeens
+repository: "salmeens/salmeens.github.io"
+
+# Site Configuration
 minimal_mistakes_skin: "custom"
 search: false
-copyright: "Skincare with Salmeen"
-copyright_url: "https://www.skincarewithsalmeen.com"
+search_full_content: false
+atom_feed:
+  hide: true
 
-# Build settings
-markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+# SEO Related
+facebook:
+  username: "skincarewithsalmeenbangla"
+og_image: "/assets/images/logo.png"
+social:
+  links:
+    - "https://facebook.com/skincarewithsalmeenbangla"
+    - "https://tiktok.com/@salmeenc"
 
-# Outputting
-permalink: /:categories/:title/
+# Analytics
+# TODO: Google Analytics Setup
+# 1. Get GA4 tracking ID from Google Analytics (format: G-XXXXXXXXXX)
+# 2. Change provider: false to provider: "google"
+# 3. Uncomment and add tracking_id below
+analytics:
+  provider: false
+  google:
+    tracking_id: # "G-XXXXXXXXXX"
+    anonymize_ip: true # false by default
 
-timezone: America/Toronto
-
-include:
-  - _pages
-  - favicon.ico
-  - assets/images/favicon
-
-# Plugins (previously gems:)
-plugins:
-  - jekyll-sitemap
-  - jekyll-gist
-  - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
-
+# Site Author
 author:
-  name             : "Salmeen"
-  avatar           : "/assets/images/salmeen.jpg"
-  bio              : "Licensed Esthetician | Skincare Educator | Content Creator"
-  location         : "Toronto, ON, Canada"
-  email            : "salmeen@skincarewithsalmeen.com"
+  name: "Salmeen"
+  avatar: "/assets/images/salmeen.jpg"
+  bio: "Licensed Esthetician | Skincare Educator | Content Creator"
+  location: "Toronto, ON, Canada"
+  email: "salmeen@skincarewithsalmeen.com"
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
@@ -51,6 +50,7 @@ author:
       icon: "fab fa-fw fa-tiktok"
       url: "https://tiktok.com/@salmeenc"
 
+# Footer
 footer:
   links:
     - label: "Facebook"
@@ -60,6 +60,59 @@ footer:
       icon: "fab fa-fw fa-tiktok"
       url: "https://tiktok.com/@salmeenc"
 
+# Build settings
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+permalink: /:categories/:title/
+paginate: 5
+paginate_path: /page:num/
+timezone: America/Toronto
+
+# Sass
+sass:
+  style: compressed
+  sourcemap: never
+
+# Outputting
+include:
+  - _pages
+  - favicon.ico
+  - assets/images/favicon
+exclude:
+  - "*.sublime-project"
+  - "*.sublime-workspace"
+  - vendor
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - Capfile
+  - CHANGELOG
+  - config
+  - Gemfile
+  - Gemfile.lock
+  - Gruntfile.js
+  - log
+  - node_modules
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README
+  - tmp
+  - /test
+  - /docs
+  - /example
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+  - jemoji
+
+# Defaults
 defaults:
   # _pages
   - scope:
