@@ -34,7 +34,6 @@ header:
         <li>Build a beginner-friendly routine based on your skin's needs</li>
         <li>Written by a licensed esthetician with a science-backed approach</li>
       </ul>
-      <p class="brand-price">Available on Amazon</p>
       <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="btn btn--primary" target="_blank">Buy on Amazon</a>
     </div>
   </div>
