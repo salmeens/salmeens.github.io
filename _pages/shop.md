@@ -17,7 +17,7 @@ header:
 
   <div class="brand-guide">
     <div class="brand-thumbnail">
-      <img src="/assets/images/whats-my-skin-type-book.jpeg" alt="What's My Skin Type? Book">
+      <img src="/assets/images/whats-my-skin-type-book.jpg" alt="What's My Skin Type? Book">
     </div>
     <div class="brand-info">
       <h3 class="brand-subheading">What's My Skin Type?</h3>
