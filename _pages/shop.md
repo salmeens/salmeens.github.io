@@ -5,64 +5,73 @@ layout: single
 classes:
   - wide
 header:
-  overlay_color: "#000"
+  overlay_color: "#4B3E2B"
   overlay_filter: "0.5"
   overlay_image: /assets/images/shop.png
   caption: "Professional skincare guides for your journey"
 ---
 
-# Transform Your Skincare Routine
+<div class="brand-content">
+  <h1 class="brand-heading">Transform Your Skincare Routine</h1>
 
-Access professional skincare guidance anytime with my comprehensive digital guides. Each guide is carefully crafted to help you achieve your skincare goals with expert recommendations and easy-to-follow routines.
+  <p class="brand-text">Access professional skincare guidance anytime with my comprehensive digital guides. Each guide is carefully crafted to help you achieve your skincare goals with expert recommendations and easy-to-follow routines.</p>
 
-<div class="guide-item">
-  <div class="guide-thumbnail">
-    <img src="/assets/images/whats-my-skin-type-book.jpg" alt="What's My Skin Type? Book" onerror="this.onerror=null;this.src='https://via.placeholder.com/400x300?text=Book+Cover';">
-    <div class="guide-overlay">
-      <h3>What’s My Skin Type? Book</h3>
-      <ul>
-        <li>A fun, no-fluff guide to understanding your skin better</li>
-        <li>Discover your true skin type with interactive insights</li>
-        <li>Build a beginner-friendly routine based on your skin’s needs</li>
-        <li>Written by a licensed esthetician with a science-backed approach</li>
-      </ul>
+  <div class="brand-guide">
+    <div class="brand-thumbnail">
+      <img src="/assets/images/whats-my-skin-type-book.jpg" alt="What's My Skin Type? Book" onerror="this.onerror=null;this.src='https://via.placeholder.com/400x300?text=Book+Cover';">
+      <div class="brand-overlay">
+        <h3 class="brand-subheading">What's My Skin Type? Book</h3>
+        <ul class="brand-list">
+          <li>A fun, no-fluff guide to understanding your skin better</li>
+          <li>Discover your true skin type with interactive insights</li>
+          <li>Build a beginner-friendly routine based on your skin's needs</li>
+          <li>Written by a licensed esthetician with a science-backed approach</li>
+        </ul>
+      </div>
     </div>
-  </div>
-  <div class="guide-info">
-    <h3>What’s My Skin Type?</h3>
-    <p class="guide-price">Available on Amazon</p>
-    <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="button" target="_blank">Buy on Amazon</a>
+    <div class="brand-info">
+      <h3 class="brand-subheading">What's My Skin Type?</h3>
+      <p class="brand-price">Available on Amazon</p>
+      <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="brand-button" target="_blank">Buy on Amazon</a>
+    </div>
   </div>
 </div>
 
 <style>
-.guide-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin: 2rem 0;
+.brand-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  color: var(--text-color);
 }
 
-@media (max-width: 768px) {
-  .guide-grid {
-    grid-template-columns: 1fr;
-  }
+.brand-heading {
+  color: var(--secondary-color);
+  font-family: 'DM Sans', sans-serif;
+  margin-bottom: 2rem;
 }
 
-.guide-item {
-  background: #2a2a2a;
+.brand-text {
+  line-height: 1.6;
+  margin-bottom: 2rem;
+  font-family: 'Merriweather', serif;
+}
+
+.brand-guide {
+  background: var(--secondary-color);
   border-radius: 8px;
   overflow: hidden;
-  color: white;
+  color: var(--background-color);
+  margin-bottom: 2rem;
 }
 
-.guide-thumbnail {
+.brand-thumbnail {
   position: relative;
   padding-top: 75%;
   overflow: hidden;
 }
 
-.guide-thumbnail img {
+.brand-thumbnail img {
   position: absolute;
   top: 0;
   left: 0;
@@ -71,14 +80,14 @@ Access professional skincare guidance anytime with my comprehensive digital guid
   object-fit: cover;
 }
 
-.guide-overlay {
+.brand-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba(0, 0, 0, 0.8);
-  color: white;
+  background: rgba(75, 62, 43, 0.9);
+  color: var(--background-color);
   padding: 1rem;
   opacity: 0;
   transition: opacity 0.3s ease;
@@ -87,46 +96,46 @@ Access professional skincare guidance anytime with my comprehensive digital guid
   justify-content: center;
 }
 
-.guide-thumbnail:hover .guide-overlay {
+.brand-thumbnail:hover .brand-overlay {
   opacity: 1;
 }
 
-.guide-overlay h3 {
+.brand-overlay h3 {
   margin: 0 0 1rem;
-  color: #00b5ad;
+  color: var(--accent-color);
 }
 
-.guide-overlay ul {
+.brand-overlay ul {
   list-style: none;
   padding: 0;
   margin: 0;
   font-size: 0.9em;
 }
 
-.guide-overlay li {
+.brand-overlay li {
   margin-bottom: 0.5rem;
 }
 
-.guide-info {
+.brand-info {
   padding: 1.5rem;
 }
 
-.guide-info h3 {
+.brand-info h3 {
   margin: 0;
-  color: #00b5ad;
+  color: var(--accent-color);
 }
 
-.guide-price {
+.brand-price {
   font-size: 1.5rem;
   font-weight: bold;
-  color: white;
+  color: var(--background-color);
   margin: 1rem 0;
 }
 
-.button {
+.brand-button {
   display: inline-block;
-  background: #00b5ad;
-  color: white !important;
+  background: var(--accent-color);
+  color: var(--background-color) !important;
   padding: 0.8rem 1.5rem;
   border-radius: 4px;
   text-decoration: none;
@@ -134,9 +143,36 @@ Access professional skincare guidance anytime with my comprehensive digital guid
   transition: background 0.3s ease;
   width: 100%;
   text-align: center;
+  font-family: 'DM Sans', sans-serif;
 }
 
-.button:hover {
-  background: #009c95;
+.brand-button:hover {
+  background: var(--secondary-color);
+  color: var(--accent-color) !important;
+}
+
+.brand-subheading {
+  color: var(--secondary-color);
+  font-family: 'DM Sans', sans-serif;
+  margin: 2rem 0 1rem;
+}
+
+.brand-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.brand-list li {
+  margin-bottom: 0.5rem;
+  padding-left: 1.5rem;
+  position: relative;
+}
+
+.brand-list li:before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-color);
 }
 </style>
