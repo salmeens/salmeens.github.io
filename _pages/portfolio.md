@@ -4,7 +4,7 @@ permalink: /portfolio/
 layout: single
 author_profile: true
 header:
-  overlay_image: /assets/images/banner.png
+  overlay_image: /assets/images/banner.jpg
   overlay_filter: rgba(75, 62, 43, 0.3)
   overlay_color: "#4B3E2B"
 ---

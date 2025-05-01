@@ -2,9 +2,9 @@
 main:
   - title: "About"
     url: /about/
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "Shop"
-    url: /shop/
   - title: "Book Now"
     url: /book-now/
+  - title: "Shop"
+    url: /shop/
+  - title: "Portfolio"
+    url: /portfolio/

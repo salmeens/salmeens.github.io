@@ -5,7 +5,7 @@ layout: single
 classes:
   - wide
 header:
-  overlay_image: /assets/images/banner.png
+  overlay_image: /assets/images/banner.jpg
   overlay_filter: rgba(75, 62, 43, 0.3)
   overlay_color: "#4B3E2B"
 ---
@@ -35,13 +35,13 @@ header:
       <p class="brand-text">You can book me for a paid virtual 1:1 consultation. Here's how it works:</p>
       <ol class="brand-list">
         <li>Fill out the quick inquiry form—tell me about your skin and your goals.</li>
-        <li>I’ll review your answers and get in touch (email or text—your choice).</li>
-        <li>If we’re a good fit, I’ll invite you to a free 10-minute discovery call.</li>
-        <li>You’ll have 48 hours to confirm.</li>
-        <li>After the call, if you’d like to move forward, you can book your full 40-minute consultation.</li>
+        <li>I'll review your answers and get in touch (email or text—your choice).</li>
+        <li>If we're a good fit, I'll invite you to a free 10-minute discovery call.</li>
+        <li>You'll have 48 hours to confirm.</li>
+        <li>After the call, if you'd like to move forward, you can book your full 40-minute consultation.</li>
       </ol>
       <p class="brand-text">This process helps me make sure every session is intentional, focused, and personalized just for you.</p>
-      
+      <p class="brand-text"><strong><em>** Limited slots available **</em></strong></p>
       <h3 class="brand-subheading">During the Consultation</h3>
       <ul class="brand-list">
         <li>I'll assess your skin and take note of your concerns, lifestyle habits, and current routine.</li>
@@ -67,6 +67,6 @@ header:
   </div>
 
   <div class="brand-form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2iATHIGMmzpmylWVtvBfU3bvifUDfjWFLra9mDBXEKQUrOg/viewform?embedded=true" width="100%" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2iATHIGMmzpmylWVtvBfU3bvifUDfjWFLra9mDBXEKQUrOg/viewform?embedded=true" width="100%" height="3650px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div> 
