@@ -15,71 +15,23 @@ header:
 
 Access professional skincare guidance anytime with my comprehensive digital guides. Each guide is carefully crafted to help you achieve your skincare goals with expert recommendations and easy-to-follow routines.
 
-<div class="guide-grid">
-  <div class="guide-item">
-    <div class="guide-thumbnail">
-      <img src="/assets/images/basic-guide.jpg" alt="Basic Skincare Guide">
-      <div class="guide-overlay">
-        <h3>Basic Skincare Routine Guide</h3>
-        <ul>
-          <li>Learn the essential steps for healthy skin</li>
-          <li>Product recommendations for different skin types</li>
-          <li>Morning and evening routine templates</li>
-          <li>Common mistakes to avoid</li>
-        </ul>
-      </div>
-    </div>
-    <div class="guide-info">
-      <h3>Basic Skincare Routine Guide</h3>
-      <p class="guide-price">$29.99</p>
-      <div class="gumroad-product-embed" data-gumroad-product-id="XXXXX">
-        <a href="https://gumroad.com/l/XXXXX" class="button">Buy Now</a>
-      </div>
+<div class="guide-item">
+  <div class="guide-thumbnail">
+    <img src="/assets/images/whats-my-skin-type-book.jpg" alt="What's My Skin Type? Book" onerror="this.onerror=null;this.src='https://via.placeholder.com/400x300?text=Book+Cover';">
+    <div class="guide-overlay">
+      <h3>What’s My Skin Type? Book</h3>
+      <ul>
+        <li>A fun, no-fluff guide to understanding your skin better</li>
+        <li>Discover your true skin type with interactive insights</li>
+        <li>Build a beginner-friendly routine based on your skin’s needs</li>
+        <li>Written by a licensed esthetician with a science-backed approach</li>
+      </ul>
     </div>
   </div>
-
-  <div class="guide-item">
-    <div class="guide-thumbnail">
-      <img src="/assets/images/anti-aging-guide.jpg" alt="Anti-Aging Guide">
-      <div class="guide-overlay">
-        <h3>Advanced Anti-Aging Guide</h3>
-        <ul>
-          <li>Understanding aging factors</li>
-          <li>Targeted treatments and ingredients</li>
-          <li>Professional tips for prevention</li>
-          <li>Product recommendations by age group</li>
-        </ul>
-      </div>
-    </div>
-    <div class="guide-info">
-      <h3>Advanced Anti-Aging Guide</h3>
-      <p class="guide-price">$39.99</p>
-      <div class="gumroad-product-embed" data-gumroad-product-id="YYYYY">
-        <a href="https://gumroad.com/l/YYYYY" class="button">Buy Now</a>
-      </div>
-    </div>
-  </div>
-
-  <div class="guide-item">
-    <div class="guide-thumbnail">
-      <img src="/assets/images/acne-guide.jpg" alt="Acne Management Guide">
-      <div class="guide-overlay">
-        <h3>Acne Management Guide</h3>
-        <ul>
-          <li>Understanding different types of acne</li>
-          <li>Building an effective treatment routine</li>
-          <li>Diet and lifestyle factors</li>
-          <li>Product recommendations for acne-prone skin</li>
-        </ul>
-      </div>
-    </div>
-    <div class="guide-info">
-      <h3>Acne Management Guide</h3>
-      <p class="guide-price">$34.99</p>
-      <div class="gumroad-product-embed" data-gumroad-product-id="ZZZZZ">
-        <a href="https://gumroad.com/l/ZZZZZ" class="button">Buy Now</a>
-      </div>
-    </div>
+  <div class="guide-info">
+    <h3>What’s My Skin Type?</h3>
+    <p class="guide-price">Available on Amazon</p>
+    <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="button" target="_blank">Buy on Amazon</a>
   </div>
 </div>
 
@@ -188,6 +140,3 @@ Access professional skincare guidance anytime with my comprehensive digital guid
   background: #009c95;
 }
 </style>
-
-<!-- Gumroad JavaScript -->
-<script src="https://gumroad.com/js/gumroad.js"></script> 
