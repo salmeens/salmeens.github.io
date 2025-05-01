@@ -3,7 +3,7 @@ email: ""
 description: "Licensed Esthetician"
 url: "https://www.skincarewithsalmeen.com"
 github_username: salmeens
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "custom"
 search: false
 copyright: "Skincare with Salmeen"
 copyright_url: "https://www.skincarewithsalmeen.com"

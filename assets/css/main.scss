@@ -1,0 +1,53 @@
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Merriweather:wght@400;700&family=Work+Sans:wght@400;500;600&display=swap');
+
+/* Custom styles */
+body {
+  background-color: $background-color;
+  color: $text-color;
+  font-family: $serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $sans-serif;
+  color: $text-color;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+
+  &:hover {
+    color: $link-color-hover;
+  }
+}
+
+/* Navigation */
+.masthead {
+  background-color: $background-color;
+  border-bottom: 1px solid rgba($primary-color, 0.1);
+}
+
+.greedy-nav {
+  background: $background-color;
+}
+
+/* Buttons */
+.btn {
+  background-color: $primary-color;
+  color: $background-color;
+  
+  &:hover {
+    background-color: $accent-color;
+  }
+}
+
+/* Footer */
+.page__footer {
+  background-color: $background-color;
+  border-top: 1px solid rgba($primary-color, 0.1);
+} 

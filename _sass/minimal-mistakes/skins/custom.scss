@@ -1,0 +1,35 @@
+@import "minimal-mistakes/skins/default";
+
+/* Custom skin overrides */
+$background-color: #F5F0E6;
+$text-color: #222F3E;
+$primary-color: #4B3E2B;
+$accent-color: #D9A679;
+$accent-color-alt: #A67C52;
+
+/* Fonts */
+$sans-serif: "DM Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+$serif: "Merriweather", "Work Sans", Georgia, Times, serif;
+$monospace: Monaco, Consolas, "Lucida Console", monospace;
+
+/* Type scale */
+$type-size-1: 2.441em;
+$type-size-2: 1.953em;
+$type-size-3: 1.563em;
+$type-size-4: 1.25em;
+$type-size-5: 1em;
+$type-size-6: 0.75em;
+$type-size-7: 0.6875em;
+$type-size-8: 0.625em;
+
+/* Headings */
+$h-font-family: $sans-serif;
+$h-color: $text-color;
+$h-line-height: 1.5;
+$h-margin-bottom: 0.5em;
+$h-text-rendering: optimizeLegibility;
+
+/* Links */
+$link-color: $primary-color;
+$link-color-hover: $accent-color;
+$link-color-visited: $primary-color; 
