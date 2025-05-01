@@ -1,4 +1,10 @@
 title: "Skincare with Salmeen"
+masthead_title: "Skincare with Salmeen"
+logo: "/assets/images/logo.png"
+
+# Site Logo
+site_logo: "/assets/images/logo.png"
+
 email: ""
 description: "Licensed Esthetician"
 url: "https://www.skincarewithsalmeen.com"
@@ -19,6 +25,8 @@ timezone: America/Toronto
 
 include:
   - _pages
+  - favicon.ico
+  - assets/images/favicon
 
 # Plugins (previously gems:)
 plugins:

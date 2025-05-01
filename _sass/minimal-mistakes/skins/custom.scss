@@ -3,9 +3,9 @@
 /* Custom skin overrides */
 $background-color: #F5F0E6;
 $text-color: #222F3E;
-$primary-color: #4B3E2B;
 $accent-color: #D9A679;
 $accent-color-alt: #A67C52;
+$secondary-accent-color: #4B3E2B;
 
 /* Fonts */
 $sans-serif: "DM Sans", -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
@@ -30,6 +30,6 @@ $h-margin-bottom: 0.5em;
 $h-text-rendering: optimizeLegibility;
 
 /* Links */
-$link-color: $primary-color;
-$link-color-hover: $accent-color;
-$link-color-visited: $primary-color; 
+$link-color: $secondary-accent-color;
+$link-color-hover: $accent-color-alt;
+$link-color-visited: $secondary-accent-color; 

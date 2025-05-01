@@ -2,20 +2,16 @@
 layout: splash
 classes:
   - landing
-  - dark-theme
 title: "Welcome to Skincare With Salmeen"
+tagline: "YOUR SKIN's SAFE SPACE"
 permalink: /
 header:
-  overlay_color: "#000"
-  overlay_filter: "0.3"
-  overlay_image: /assets/images/hero.png
-  cta_label: "Book Now"
-  cta_url: "/book-now/"
-  caption: "Licensed esthetician. Personalized skincare. Digital guides."
+  overlay_image: /assets/images/banner.png
+  overlay_filter: rgba(245, 240, 230, 0.3)
 feature_row:
   - image_path: /assets/images/about.png
     alt: "About Salmeen"
-    title: "About Salmeen"
+    title: "Meet Salmeen"
     excerpt: "Learn about Salmeen's passion for personalized esthetics and skincare education."
     url: "/about/"
     btn_label: "Meet Salmeen"
