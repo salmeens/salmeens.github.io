@@ -3,7 +3,7 @@ layout: splash
 classes:
   - landing
 title: "Welcome to Skincare With Salmeen"
-tagline: "YOUR SKIN's SAFE SPACE"
+tagline: "YOUR SKIN'S SAFE SPACE"
 permalink: /
 header:
   overlay_image: /assets/images/banner.png
@@ -13,7 +13,7 @@ feature_row:
   - image_path: /assets/images/salmeen.jpg
     alt: "About Salmeen"
     title: "Meet Salmeen"
-    excerpt: "Learn about Salmeen's passion for personalized esthetics and skincare education."
+    excerpt: "Learn about her passion for personalized esthetics and skincare education."
     url: "/about/"
     btn_label: "Meet Salmeen"
     btn_class: "btn--primary"
@@ -26,7 +26,7 @@ feature_row:
     btn_class: "btn--primary"
   - image_path: /assets/images/book-now.png
     alt: "Book Appointment"
-    title: "Book an Appointment"
+    title: "Book An Appointment"
     excerpt: "Reserve your 1:1 consultation or treatment session online with secure payment."
     url: "/book-now/"
     btn_label: "Book Now"

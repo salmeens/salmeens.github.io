@@ -23,8 +23,9 @@ facebook:
 og_image: "/assets/images/logo.png"
 social:
   links:
-    - "https://facebook.com/skincarewithsalmeenbangla"
+    - "https://www.youtube.com/@skincarewithsalmeen"
     - "https://tiktok.com/@salmeenc"
+    - "https://facebook.com/skincarewithsalmeenbangla"
 
 # Analytics
 # TODO: Google Analytics Setup
@@ -46,22 +47,28 @@ author:
   location: "Toronto, ON, Canada"
   email: "salmeen@skincarewithsalmeen.com"
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/skincarewithsalmeenbangla"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@skincarewithsalmeen"
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
       url: "https://tiktok.com/@salmeenc"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/skincarewithsalmeenbangla"
 
 # Footer
 footer:
   links:
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      url: "https://facebook.com/skincarewithsalmeenbangla"
+    - label: "YouTube"
+      icon: "fab fa-fw fa-youtube"
+      url: "https://www.youtube.com/@skincarewithsalmeen"
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
       url: "https://tiktok.com/@salmeenc"
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook-square"
+      url: "https://facebook.com/skincarewithsalmeenbangla"
 
 # Build settings
 markdown: kramdown
