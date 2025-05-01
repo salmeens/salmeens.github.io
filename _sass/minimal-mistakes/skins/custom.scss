@@ -42,3 +42,16 @@ $h-text-rendering: optimizeLegibility;
 $link-color: $secondary-accent-color;
 $link-color-hover: $accent-color-alt;
 $link-color-visited: $secondary-accent-color; 
+
+.archive__item .btn, .btn--primary {
+  display: block;
+  width: 80%; 
+  margin: 2em auto 0 auto;
+  text-align: center;
+  background-color: $accent-color;
+  color: $white-text;
+}
+
+.archive__item .btn:hover, .btn--primary:hover {
+  background-color: $accent-color-alt;
+}
