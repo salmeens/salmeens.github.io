@@ -12,7 +12,15 @@ header:
 
 # About Me
 
-As a licensed esthetician, I am passionate about helping people achieve their best skin health through personalized care and education. With extensive training and experience in skincare, I provide customized treatments and recommendations tailored to each individual's unique needs.
+I’m Salmeen, a licensed esthetician with a background in nanotechnology and over five years of experience consulting people on skincare—virtually, globally, and professionally.
+
+What started as a fascination with how ingredients work on the skin turned into a full-time mission: making skincare simple, effective, and personal. My consultations are rooted in science, not hype—because your skin deserves real answers, not marketing fluff.
+
+I’ve worked with people across different skin tones and concerns, helping them build routines they can actually stick to—routines that feel right, work with their lifestyle, and don’t break the bank.
+
+If you’re tired of guessing and ready for expert support that feels like a smart friend who knows skin inside out—I’m here.
+
+Let’s make skincare feel like self-respect, not a struggle.
 
 ## My Approach
 
@@ -25,7 +33,10 @@ I believe in combining traditional skincare wisdom with modern scientific knowle
 
 ## Professional Background
 
-[Add your professional background, certifications, and experience here]
+- Licensed Esthetician, Canada
+- M.Sc. in Nanotechnology with a focus on skin-delivery systems
+- 5+ years of experience providing online skincare consultations
+- Specialized in barrier repair, sensitive skin, and product analysis
 
 ## My Mission
 
