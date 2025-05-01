@@ -34,11 +34,13 @@ header:
       <h2 class="brand-subheading">How It Works</h2>
       <p class="brand-text">You can book me for a paid virtual 1:1 consultation. Here's how it works:</p>
       <ol class="brand-list">
-        <li>Fill out a short inquiry form to share your skin concerns and goals.</li>
-        <li>Once submitted, I'll review your answers and contact you through your preferred method of communication.</li>
-        <li>You'll have the option to book a free 10-minute discovery call to see if I'm the right fit for your skin goals (you'll have 48 hours to decide if you want to move forward).</li>
-        <li>If we move forward, you'll receive a confidentiality and consent form, plus payment details to secure your consultation.</li>
+        <li>Fill out the quick inquiry form—tell me about your skin and your goals.</li>
+        <li>I’ll review your answers and get in touch (email or text—your choice).</li>
+        <li>If we’re a good fit, I’ll invite you to a free 10-minute discovery call.</li>
+        <li>You’ll have 48 hours to confirm.</li>
+        <li>After the call, if you’d like to move forward, you can book your full 40-minute consultation.</li>
       </ol>
+      <p class="brand-text">This process helps me make sure every session is intentional, focused, and personalized just for you.</p>
       
       <h3 class="brand-subheading">During the Consultation</h3>
       <ul class="brand-list">
