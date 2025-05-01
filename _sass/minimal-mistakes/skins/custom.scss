@@ -65,3 +65,24 @@ $link-color-visited: $secondary-accent-color;
     color: $white-text !important;
   }
 }
+
+/* Custom Overrides */
+.masthead {
+  .greedy-nav {
+    a.site-logo {
+      border-radius: 50% !important;
+      overflow: hidden !important;
+      width: 50px !important;
+      height: 50px !important;
+      margin-right: 1em !important;
+      
+      img {
+        border-radius: 50% !important;
+        width: 100% !important;
+        height: 100% !important;
+        object-fit: cover !important;
+        max-height: none !important;
+      }
+    }
+  }
+}
