@@ -1,10 +1,10 @@
 title: "Skincare with Salmeen"
 email: ""
-description: "Professional Esthetician"
+description: "Licensed Esthetician"
 url: "https://www.skincarewithsalmeen.com"
 github_username: salmeens
-minimal_mistakes_skin: "dark"
-search: true
+minimal_mistakes_skin: "white"
+search: false
 copyright: "Skincare with Salmeen"
 copyright_url: "https://www.skincarewithsalmeen.com"
 
@@ -19,7 +19,6 @@ timezone: America/Toronto
 
 include:
   - _pages
-  - googlef46b5fcb1c61719b.html
 
 # Plugins (previously gems:)
 plugins:
@@ -32,9 +31,9 @@ plugins:
 author:
   name             : "Salmeen"
   avatar           : "/assets/images/salmeen.jpg"
-  bio              : "Licensed Esthetician & Skincare Specialist"
-  location         : "Toronto, Canada"
-  email            : "info@skincarewithsalmeen.com"
+  bio              : "Licensed Esthetician | Skincare Educator | Content Creator"
+  location         : "Toronto, ON, Canada"
+  email            : "salmeen@skincarewithsalmeen.com"
   links:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
