@@ -17,7 +17,7 @@ header:
 
   <div class="brand-guide">
     <div class="brand-thumbnail">
-      <img src="/assets/images/whats-my-skin-type-book.jpg" alt="What's My Skin Type? Book" onerror="this.onerror=null;this.src='https://via.placeholder.com/400x300?text=Book+Cover';">
+      <img src="/assets/images/whats-my-skin-type-book.jpeg" alt="What's My Skin Type? Book" onerror="this.onerror=null;this.src='https://via.placeholder.com/400x300?text=Book+Cover';">
       <div class="brand-overlay">
         <h3 class="brand-subheading">What's My Skin Type? Book</h3>
         <ul class="brand-list">

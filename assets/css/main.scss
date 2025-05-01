@@ -1,4 +1,4 @@
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes/skins/custom";
 @import "minimal-mistakes";
 
 /* Import Google Fonts */
@@ -97,6 +97,15 @@ a {
     margin-top: 2em;
     padding: 0 1em 2em;
     background-color: var(--background-color) !important;
+  }
+
+  &-follow {
+    background-color: var(--background-color) !important;
+  }
+
+  &-copyright {
+    background-color: var(--background-color) !important;
+    color: var(--text-color) !important;
   }
 
   a {
