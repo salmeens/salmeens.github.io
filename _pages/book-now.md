@@ -18,28 +18,35 @@ header:
 
     <div class="brand-options">
       <div class="brand-card">
-        <h3 class="brand-subheading">Glow With Me – Virtual Consultation</h3>
-        <p class="brand-price">$120 CAD</p>
+        <h3 class="brand-subheading">Skin Clarity Session – Virtual Consultation</h3>
+        <p class="brand-price"><strong>CAD 180 (<em>Tax Included</em>)</strong></p>
+        <p class="brand-text">A personalized skincare consultation designed to help you finally understand what your skin needs — and what it doesn’t. Includes:</p>
         <ul class="brand-list">
-          <li>40-minute video call</li>
-          <li>Skin assessment and routine check</li>
-          <li>Product recommendations based on your current needs</li>
-          <li>Includes one follow-up via email</li>
-          <li>Additional follow-ups: $45 CAD</li>
+          <li><strong><em>60-minute</em></strong> 1:1 video consultation</li>
+          <li>Skin assessment based on your current routine, concerns, and goals</li>
+          <li>Tailored skincare plan with product recommendations</li>
+          <li>Application guide and tips for layering</li>
+          <li>One follow-up email for adjustments + support</li>
         </ul>
+        <p class="brand-text"><strong>On-Demand Follow-Up — CAD 120 (<em>Tax Included</em>)</strong></p>
+        <p class="brand-text">Need more support down the line? Book an on-demand follow-up anytime after the Skin Clarity Session. Includes:</p>
+        <ul class="brand-list">
+          <li><strong><em>45-minute</em></strong> follow-up video call</li>
+          <li>Troubleshooting reactions, stagnation, or progress plateaus</li>
+        </ul>
+        <strong><em>** Follow up session is only available after the Skin Clarity Session. **</em></strong>
       </div>
     </div>
 
     <div class="brand-section">
       <h2 class="brand-subheading">How It Works</h2>
-      <p class="brand-text">You can book me for a paid virtual 1:1 consultation. Here's how it works:</p>
-      <ol class="brand-list">
+      <ul class="brand-list">
         <li>Fill out the quick inquiry form—tell me about your skin and your goals.</li>
         <li>I'll review your answers and get in touch (email or text—your choice).</li>
-        <li>If we're a good fit, I'll invite you to a free 10-minute discovery call.</li>
-        <li>You'll have 48 hours to confirm.</li>
-        <li>After the call, if you'd like to move forward, you can book your full 40-minute consultation.</li>
-      </ol>
+        <li>If we're a good fit, I'll invite you to a <strong><em>FREE 15-minute</em></strong> discovery call.</li>
+        <li>You'll have <strong><em>48 hours</em></strong> to confirm.</li>
+        <li>After the call, if you'd like to move forward, you can book your full 60-minute consultation.</li>
+      </ul>
       <p class="brand-text">This process helps me make sure every session is intentional, focused, and personalized just for you.</p>
       <p class="brand-text"><strong><em>** Limited slots available **</em></strong></p>
       <h3 class="brand-subheading">During the Consultation</h3>
@@ -52,21 +59,29 @@ header:
 
     <div class="brand-section">
       <h2 class="brand-subheading">What to Expect</h2>
-      <ol class="brand-list">
+      <ul class="brand-list">
         <li><strong>Pre-Consultation Survey:</strong> Complete a brief questionnaire about your skin concerns and goals</li>
         <li><strong>Consultation Session:</strong> In-depth discussion and analysis of your skincare needs</li>
         <li><strong>Personalized Plan:</strong> Receive a tailored routine and product recommendations</li>
-        <li><strong>Follow-Up Support:</strong> 7-day post-consultation support via email for any routine adjustments or product clarifications</li>
-      </ol>
+        <li><strong>Follow-Up Support:</strong> 1 post-consultation support via email for any routine adjustments or product clarifications</li>
+      </ul>
 
       <div class="brand-card">
         <h3 class="brand-subheading">Cancellation Policy</h3>
-        <p class="brand-text">Please provide at least 24 hours' notice for any cancellations or rescheduling. Late cancellations or no-shows will be charged 50% of the consultation fee. Respecting time goes both ways—mine and yours.</p>
+        <ul class="brand-list">
+          <li>Free cancellation up to <strong><em>24 hours</em></strong> before the appointment.</li>
+          <li>If you need to reschedule, please do so before <strong><em>24 hours</em></strong> of the appointment.</li>
+          <li>Late cancellations less than <strong><em>24 hours</em></strong> or <strong><em>no-shows</em></strong> will be charged <strong><em>100% of the consultation fee</em></strong>.</li>
+        </ul>
       </div>
     </div>
   </div>
 
+<div class="brand-form-container">
+  <div class="brand-form-title">
+    <h2 class="brand-subheading">Book a Consultation</h2>
+  </div>
   <div class="brand-form">
     <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2iATHIGMmzpmylWVtvBfU3bvifUDfjWFLra9mDBXEKQUrOg/viewform?embedded=true" width="100%" height="3650px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
-</div> 
+</div>
