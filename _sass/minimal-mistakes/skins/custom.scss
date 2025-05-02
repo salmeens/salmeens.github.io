@@ -127,7 +127,9 @@ $link-color-visited: $secondary-accent-color;
 }
 
 .media-dynamic video {
-  max-width: 360px;
+  max-width: calc(100% - 10px);
+  width: 480px;
+  margin: 0 5px;
   border-radius: 12px;
   box-shadow: 0 0 10px rgba(0,0,0,0.05);
 }
