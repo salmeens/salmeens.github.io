@@ -24,7 +24,7 @@ og_image: "/assets/images/logo.png"
 social:
   links:
     - "https://www.youtube.com/@skincarewithsalmeen"
-    - "https://tiktok.com/@salmeenc"
+    - "https://www.tiktok.com/@salmeen_c?_t=ZM-8w0ZgmfpGzv&_r=1"
     - "https://facebook.com/skincarewithsalmeenbangla"
 
 # Analytics
@@ -52,7 +52,7 @@ author:
       url: "https://www.youtube.com/@skincarewithsalmeen"
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
-      url: "https://tiktok.com/@salmeenc"
+      url: "https://www.tiktok.com/@salmeen_c?_t=ZM-8w0ZgmfpGzv&_r=1"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/skincarewithsalmeenbangla"
@@ -65,7 +65,7 @@ footer:
       url: "https://www.youtube.com/@skincarewithsalmeen"
     - label: "TikTok"
       icon: "fab fa-fw fa-tiktok"
-      url: "https://tiktok.com/@salmeenc"
+      url: "https://www.tiktok.com/@salmeen_c?_t=ZM-8w0ZgmfpGzv&_r=1"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       url: "https://facebook.com/skincarewithsalmeenbangla"
