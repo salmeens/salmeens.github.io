@@ -144,3 +144,45 @@ $link-color-visited: $secondary-accent-color;
   overflow: visible;
   text-overflow: ellipsis;
 }
+
+.brand-logo-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2rem 1.5rem;
+  justify-items: center;
+  align-items: center;
+  margin: 2rem 0;
+
+  @media (max-width: 900px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.brand-logo-link {
+  display: block;
+  transition: transform 0.2s;
+}
+
+.brand-logo-link:hover {
+  transform: scale(1.07);
+}
+
+.brand-logo-img {
+  width: 90px;
+  height: 90px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+  border: 1px solid #eee;
+  padding: 0.5rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.brand-logo-img:hover {
+  transform: scale(1.07);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.10);
+}
