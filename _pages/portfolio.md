@@ -29,5 +29,6 @@ Clean. Strategic. High-converting.</p>
     <img src="/assets/images/brands/thayers.png" alt="Thayers Logo" class="brand-logo-img" />
     <img src="/assets/images/brands/vichy.jpg" alt="Vichy Logo" class="brand-logo-img" />
     <img src="/assets/images/brands/ysl.jpg" alt="YSL Logo" class="brand-logo-img" />
+    <img src="/assets/images/brands/ytp.jpg" alt="Youth To People Logo" class="brand-logo-img" />
   </div>
 </div> 
