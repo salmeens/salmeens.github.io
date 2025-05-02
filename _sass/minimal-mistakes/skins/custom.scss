@@ -87,14 +87,38 @@ $link-color-visited: $secondary-accent-color;
   }
 }
 
+.brand-media-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .brand-media {
   display: flex;
-  gap: 2em;
-  align-items: flex-start;
-  justify-content: center;
-  flex-wrap: wrap; // fallback for smaller screens
-  margin-top: 2em;
+
+  .media-dynamic {
+    flex: 1;
+    video {
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
 }
+
+.brand-guide {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  align-items: start;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
+}
+
+.brand-info {
+  padding: 1rem;
+} 
 
 .media-static img {
   max-width: 240px;
