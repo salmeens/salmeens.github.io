@@ -1,10 +1,10 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Book Now"
     url: /book-now/
   - title: "Shop"
     url: /shop/
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "UGC"
+    url: /ugc/
+  - title: "About"
+    url: /about/
