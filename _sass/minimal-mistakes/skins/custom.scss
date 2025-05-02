@@ -153,10 +153,10 @@ $link-color-visited: $secondary-accent-color;
   align-items: center;
   margin: 2rem 0;
 
-  @media (max-width: 350px) {
+  @media (max-width: 375px) {
     grid-template-columns: repeat(3, 1fr);
   }
-  @media (max-width: 300px) {
+  @media (max-width: 320px) {
     grid-template-columns: repeat(2, 1fr);
   }
   @media (max-width: 250px) {
