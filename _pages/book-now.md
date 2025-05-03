@@ -20,7 +20,7 @@ header:
       <div class="brand-card">
         <h3 class="brand-subheading">Skin Clarity Session – Virtual Consultation</h3>
         <p class="brand-price"><strong>CAD 180 (<em>Tax Included</em>)</strong></p>
-        <p class="brand-text">A personalized skincare consultation designed to help you finally understand what your skin needs — and what it doesn’t. Includes:</p>
+        <p class="brand-text">A personalized skincare consultation designed to help you finally understand what your skin needs — and what it doesn't. Includes:</p>
         <ul class="brand-list">
           <li><strong><em>60-minute</em></strong> 1:1 video consultation</li>
           <li>Skin assessment based on your current routine, concerns, and goals</li>
@@ -82,6 +82,6 @@ header:
     <h2 class="brand-subheading">Book a Consultation</h2>
   </div>
   <div class="brand-form">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2iATHIGMmzpmylWVtvBfU3bvifUDfjWFLra9mDBXEKQUrOg/viewform?embedded=true" width="100%" height="3650px" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2iATHIGMmzpmylWVtvBfU3bvifUDfjWFLra9mDBXEKQUrOg/viewform?embedded=true" width="100%" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
   </div>
 </div>
