@@ -195,8 +195,9 @@ $link-color-visited: $secondary-accent-color;
   height: 3650px;
   border: none;
 }
+
 @media (max-width: 600px) {
   .brand-form iframe {
-    height: 4000px;
+    height: 4800px;
   }
 }
