@@ -1,5 +1,6 @@
 ---
-title: "User-Generated Content for Skincare Brands"
+title: "Skincare UGC Creator"
+tagline: "Esthetician-Backed Content for Beauty Brands"
 permalink: /ugc/
 layout: single
 author_profile: true
@@ -10,14 +11,16 @@ header:
 ---
 
 <div class="brand-section">
-  <h1 class="brand-heading">Portfolio</h1>
-  <p class="brand-text">I create high-performing skincare UGC backed by my esthetics expertise—designed to inform, engage, and convert. Whether it's a voiceover demo or a minimal aesthetic reel, every piece is crafted to match your brand's goals.</p>
+  <h1 class="brand-heading">Skincare UGC That Converts</h1>
+  <p class="brand-text">I’m a licensed esthetician and skincare content creator specializing in high-performing UGC for skincare and beauty brands. From minimal aesthetic reels to voiceover-led demos, I craft content designed to inform, engage, and convert—grounded in skincare expertise, not just trends.</p>
 
-  <h2 class="brand-subheading">UGC Content Packages</h2>
+  <p class="brand-text">If you're a brand looking to hire a skincare UGC creator with real product knowledge and credibility, you're in the right place.</p>
+
+  <h2 class="brand-subheading">User-Generated Content Packages</h2>
   <section class="ugc-packages">
     <div class="ugc-package">
       <h3>Starter Glow – USD 500</h3>
-      <p>Perfect for brands testing UGC or starting a campaign.</p>
+      <p>Perfect for skincare brands testing UGC or starting a campaign.</p>
       <ul>
         <li>1 Face-to-Cam Product Demo (30–60s)</li>
         <li>Raw Footage + Edited Version</li>
@@ -29,11 +32,11 @@ header:
     <hr />
     <div class="ugc-package">
       <h3>Barrier Bundle – USD 1000</h3>
-      <p>A mini content bank for ongoing use</p>
+      <p>A mini UGC content bank designed for skincare brands needing ongoing assets.</p>
       <ul>
-        <li>2 Edited UGC Videos (voiceover OR face-to-cam)</li>
+        <li>2 Edited UGC Videos (voiceover or face-to-cam)</li>
         <li>1 Aesthetic B-Roll Clip (15s–30s)</li>
-        <li>3 High-res Product Photos</li>
+        <li>3 High-Res Product Photos</li>
         <li>Raw Files Included</li>
         <li>2 Rounds of Revisions</li>
         <li>Usage rights for organic + paid (30 days)</li>
@@ -42,14 +45,14 @@ header:
     <hr />
     <div class="ugc-package">
       <h3>Full Routine Kit – USD 1500</h3>
-      <p>For brands ready to build a complete UGC asset kit</p>
+      <p>The complete package for beauty brands wanting a full UGC campaign toolkit.</p>
       <ul>
-        <li>3 UGC Videos (hook variation + main message)</li>
+        <li>3 UGC Videos (with hook variations)</li>
         <li>1 Unboxing Video</li>
-        <li>5 High-res Product Photos (Styled)</li>
+        <li>5 Styled Product Photos</li>
         <li>Text overlay options</li>
-        <li>1 Consultation Call (Prep/Scripting Help)</li>
-        <li>30-day Paid Usage License</li>
+        <li>1 Strategy Call (Prep/Scripting)</li>
+        <li>30-Day Paid Usage License</li>
         <li>Whitelisting available (add-on)</li>
       </ul>
     </div>
@@ -65,13 +68,14 @@ header:
     </div>
     <hr />
     <div class="ugc-custom">
-      <p>Want something custom? Let's talk.<br />
-      Every brand is different—send me your brief and I'll build you a kit that makes sense.</p>
+      <p>Need something custom? Let’s collaborate.<br />
+      Send your creative brief and I’ll build a tailored UGC kit that aligns with your brand vision and campaign goals.</p>
     </div>
   </section>
 
-  <h2 class="brand-subheading">Brands I've Worked With</h2>
-  <p class="brand-text">Grateful to be included in PR lists from trusted skincare brands who value honest feedback and ingredient-driven creators.</p>
+  <h2 class="brand-subheading">Trusted by Skincare & Beauty Brands</h2>
+  <p class="brand-text">I'm proud to have worked with brands that value authentic, esthetician-backed UGC. I’ve been featured on PR lists and in campaigns where skin credibility actually matters.</p>
+
   <div class="brand-logo-grid">
     <img src="/assets/images/brands/cosrx.png" alt="Cosrx Logo" class="brand-logo-img" />
     <img src="/assets/images/brands/drg.webp" alt="Dr.G Logo" class="brand-logo-img" />
@@ -80,6 +84,6 @@ header:
     <img src="/assets/images/brands/thayers.png" alt="Thayers Logo" class="brand-logo-img" />
     <img src="/assets/images/brands/vichy.jpg" alt="Vichy Logo" class="brand-logo-img" />
     <img src="/assets/images/brands/ysl.jpg" alt="YSL Logo" class="brand-logo-img" />
-    <img src="/assets/images/brands/ytp.jpg" alt="Youth To People Logo" class="brand-logo-img" />
+    <img src="/assets/images/brands/ytp.jpg" alt="Youth To The People Logo" class="brand-logo-img" />
   </div>
-</div> 
+</div>
