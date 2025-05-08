@@ -1,6 +1,7 @@
 ---
 title: "Skincare UGC Creator"
 tagline: "Esthetician-Backed Content for Beauty Brands"
+description: "Hire Salmeen, an esthetician-backed UGC creator specializing in skincare and beauty content. Book high-converting UGC videos, reels, and product demos tailored for your brand."
 permalink: /ugc/
 layout: single
 author_profile: true

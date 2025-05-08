@@ -1,5 +1,7 @@
 ---
-title: "About Salmeen | Licensed Esthetician & Virtual Skincare Consultant"
+title: "About Salmeen"
+tagline: "Licensed Esthetician & Virtual Skincare Consultant"
+description: "Meet Salmeen, a licensed esthetician and virtual skincare consultant with a background in nanotechnology, chemistry, and esthetics. Specializing in custom skincare routines and ingredient education."
 permalink: /about/
 layout: single
 author_profile: true
@@ -12,7 +14,7 @@ header:
 <div class="brand-section">
   <h1 class="brand-heading">About Me</h1>
 
-  <p class="brand-text">I'm Salmeen—a licensed esthetician with a background in nanotechnology and over five years of experience as a virtual skincare consultant. I specialize in sensitive skin, barrier repair, and helping people build custom skincare routines that actually work.</p>
+  <p class="brand-text">I'm Salmeen—a licensed esthetician with a background in nanotechnology and over five years of experience as a skincare consultant. I specialize in sensitive skin, barrier repair, and helping people build custom skincare routines that actually work.</p>
 
   <p class="brand-text">What started as a fascination with how ingredients interact with the skin evolved into a mission: making skincare simple, science-backed, and personal. My approach blends evidence-based skincare with empathy—because real results come from real understanding, not hype.</p>
 
@@ -37,9 +39,11 @@ header:
 
   <ul class="brand-list">
     <li>Licensed Esthetician, Canada</li>
+    <li>5+ years of experience in skincare consulting</li>
+    <li>Certified in Acne Specialization</li>
+    <li>Expertise in acne,barrier health, sensitive skin, and product analysis</li>
     <li>M.Sc. in Nanotechnology</li>
-    <li>5+ years of experience in virtual skincare consulting</li>
-    <li>Expertise in barrier health, sensitive skin, and product analysis</li>
+    <li>B.Sc. in Chemistry</li>
   </ul>
 
   <h2 class="brand-subheading">My Mission</h2>

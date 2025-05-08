@@ -1,6 +1,7 @@
 ---
 title: "Digital Skincare Guides"
 tagline: "Esthetician Skincare eBook"
+description: "Download 'What's My Skin Type?'—a beginner-friendly skincare guide by esthetician Salmeen. Learn how to build a skincare routine that works for your real skin."
 permalink: /shop/
 layout: single
 classes:

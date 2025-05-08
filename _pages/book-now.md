@@ -1,6 +1,7 @@
 ---
 title: "Book a Skin Consultation"
 tagline: "Personalized Routines, Tailored to Your Skin"
+description: "Book a virtual skin consultation with Salmeen. Get a personalized skincare routine, expert product recommendations, and barrier repair guidance tailored to your skin type."
 permalink: /book-now/
 layout: single
 classes:
@@ -15,7 +16,7 @@ header:
   <div>
     <h1 class="brand-heading">Personalized routines. Expert skin analysis. 1:1 support—wherever you are</h1>
 
-    <p class="brand-text">Book a personalized skin consultation with a licensed esthetician in Toronto. Virtual consultations available. Includes skin analysis, custom routine, and follow-up support.</p>
+    <p class="brand-text">Book a personalized skin consultation with me, a licensed esthetician in Toronto. Virtual consultations available. Includes skin analysis, custom routine, and follow-up support.</p>
     
     <p class="brand-text">With over five years of experience, I help clients cut through skincare confusion and build custom skincare routines that actually work. Whether you're in Toronto or booking from elsewhere in Canada, my virtual skincare consultations are designed to fit your skin and your schedule.</p>
     

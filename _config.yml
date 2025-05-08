@@ -121,6 +121,7 @@ plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jemoji
+  - jekyll-seo-tag
 
 # Defaults
 defaults:

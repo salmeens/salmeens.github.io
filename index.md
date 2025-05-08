@@ -4,13 +4,14 @@ classes:
   - landing
 title: "Certified Esthetician in Toronto"
 tagline: "Virtual & Personalized Skincare"
+description: "Get expert skincare advice from Salmeen, a licensed esthetician in Toronto. Personalized routines, virtual skin consultations, and digital guides designed for real skin concerns."
 permalink: /
 header:
   overlay_image: /assets/images/banner.jpg
   overlay_filter: rgba(75, 62, 43, 0.3)
   overlay_color: "#4B3E2B"
 intro:
-  - excerpt: "Skincare consultations, skin analysis, and customized routines from a licensed esthetician in Toronto. Book your virtual or in-person session today."
+  - excerpt: "Skincare consultations, skin analysis, and customized routines from a licensed esthetician in Toronto. Book your virtual session today."
 feature_row:
   - image_path: /assets/images/salmeen.jpg
     alt: "About Salmeen"
