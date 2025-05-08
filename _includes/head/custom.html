@@ -1,5 +1,11 @@
 <!-- start custom head snippets -->
 {% seo %}
+
+{% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include analytics.html %}
+{% endif %}
+
+
 <!-- Favicons -->
 <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon/icon-192.png">
