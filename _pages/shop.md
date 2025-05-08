@@ -1,5 +1,6 @@
 ---
 title: "Digital Skincare Guides"
+tagline: "Esthetician Skincare eBook"
 permalink: /shop/
 layout: single
 classes:
@@ -15,7 +16,9 @@ header:
 
   <p class="brand-text"><strong><i>A no-fluff guide to understanding your skin better.</i></strong></p>
 
-  <p class="brand-text">This digital book helps you confidently identify your real skin type and build a routine that actually works. Written by a professional esthetician (<em>hi, that's me</em>), it breaks down the essentials in a fun, practical way—so you stop second-guessing and start glowing.</p>
+  <p class="brand-text">Confused about your skin type? This skin type ebook helps you confidently figure out what your skin actually needs—so you can stop wasting money on the wrong products. Written by a licensed esthetician (<em>hi, that's me</em>), it simplifies skincare for beginners in a fun, practical way</p>
+
+  <p class="brand-text">If you're searching for a skincare guide for beginners, a skin type quiz in book form, or just want clear, expert advice on building a routine that works—this book is for you.</p>
 
   <div class="brand-media-wrapper">
     <div class="brand-media">
@@ -31,13 +34,13 @@ header:
 
   <div class="brand-info">
     <h3 class="brand-subheading">Inside the Book</h3>
-    <p class="brand-text">This Kindle version is perfect if you prefer digital reading on your phone, tablet, or Kindle device. Download instantly, and start learning what your skin actually needs—without the overwhelm.</p>
+    <p class="brand-text">This digital skincare book is Kindle-ready, making it perfect for your phone, tablet, or e-reader. It's an instant download, and the chapters are short, fun, and actionable—no fluff, no filler.</p>
     <p class="brand-text">You'll learn how to:</p>
     <ul class="brand-list">
       <li>Identify your real skin type (<em>even if it changes</em>)</li>
-      <li>Build a basic routine that doesn't overwhelm you</li>
-      <li>Choose ingredients that actually work for your skin</li>
-      <li>Avoid product mistakes that cost you time and money</li>
+      <li>Build a basic skincare routine that fits your lifestyle</li>
+      <li>Understand skincare ingredients without getting overwhelmed</li>
+      <li>Avoid common mistakes that damage your skin or waste your money</li>
     </ul>
     <a href="https://www.amazon.ca/dp/B0F6BK75P9" class="btn btn--primary" target="_blank">Buy on Amazon</a>
   </div>
