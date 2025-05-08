@@ -27,16 +27,8 @@ social:
     - "https://www.tiktok.com/@salmeen_c?_t=ZM-8w0ZgmfpGzv&_r=1"
     - "https://facebook.com/skincarewithsalmeenbangla"
 
-# Analytics
-# TODO: Google Analytics Setup
-# 1. Get GA4 tracking ID from Google Analytics (format: G-XXXXXXXXXX)
-# 2. Change provider: false to provider: "google"
-# 3. Uncomment and add tracking_id below
-analytics:
-  provider: false
-  google:
-    tracking_id: # "G-XXXXXXXXXX"
-    anonymize_ip: true # false by default
+
+google_analytics: G-XXXXXXXXXX
 
 # Site Author
 author:
