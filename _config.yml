@@ -149,3 +149,21 @@ defaults:
       header:
         overlay_color: "#000"
         overlay_filter: "0.5"
+
+seo:
+  title: "Salmeen's Skincare - Professional Esthetician"
+  description: "Skincare tips, advice, and insights from a licensed esthetician. Expert guidance on treatments, products, and skin health."
+  author: "Salmeen"
+  linkedin:
+    username: "salmeen"
+    card: summary_large_image
+    
+responsive_image:
+  sizes:
+    - width: 800
+      quality: 80
+    - width: 400
+      quality: 80
+  base_path: assets/images
+  strip: true
+  save_to_site: true
