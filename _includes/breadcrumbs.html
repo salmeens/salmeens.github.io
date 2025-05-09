@@ -1,0 +1,26 @@
+{% if page.breadcrumbs %}
+<nav class="breadcrumbs">
+  <ol itemscope itemtype="https://schema.org/BreadcrumbList">
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <a href="{{ '/' | relative_url }}" itemprop="item">
+        <span itemprop="name">Home</span>
+      </a>
+      <meta itemprop="position" content="1" />
+    </li>
+    {% if page.categories %}
+      {% for category in page.categories %}
+        <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+          <a href="{{ category | slugify | prepend: '/categories/#' | relative_url }}" itemprop="item">
+            <span itemprop="name">{{ category }}</span>
+          </a>
+          <meta itemprop="position" content="{{ forloop.index | plus: 1 }}" />
+        </li>
+      {% endfor %}
+    {% endif %}
+    <li itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
+      <span itemprop="name">{{ page.title }}</span>
+      <meta itemprop="position" content="{{ page.categories.size | plus: 2 }}" />
+    </li>
+  </ol>
+</nav>
+{% endif %} 

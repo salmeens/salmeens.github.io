@@ -3,7 +3,7 @@ locale: "en-CA"
 title: "Skincare with Salmeen"
 logo: "/assets/images/logo.png"
 email: "salmeen@skincarewithsalmeen.com"
-description: "Licensed Esthetician"
+description: "Professional skincare advice, treatments, and education from licensed esthetician Salmeen. Expert guidance on skin health, routines, and products in Toronto."
 url: "https://www.skincarewithsalmeen.com"
 baseurl: ""
 repository: "salmeens/salmeens.github.io"
@@ -12,10 +12,10 @@ copyright_url: "https://www.skincarewithsalmeen.com"
 
 # Site Configuration
 minimal_mistakes_skin: "custom"
-search: false
-search_full_content: false
+search: true
+search_full_content: true
 atom_feed:
-  hide: true
+  hide: false
 
 # SEO Related
 facebook:
@@ -151,13 +151,15 @@ defaults:
         overlay_filter: "0.5"
 
 seo:
-  title: "Salmeen's Skincare - Professional Esthetician"
-  description: "Skincare tips, advice, and insights from a licensed esthetician. Expert guidance on treatments, products, and skin health."
+  title: "Skincare with Salmeen - Professional Esthetician in Toronto"
+  description: "Expert skincare advice, treatments, and education from licensed esthetician Salmeen. Learn about skin health, routines, and professional treatments in Toronto."
   author: "Salmeen"
   linkedin:
     username: "salmeen"
     card: summary_large_image
-    
+  canonical_url: "https://www.skincarewithsalmeen.com"
+  breadcrumbs: true
+
 responsive_image:
   sizes:
     - width: 800

@@ -5,8 +5,26 @@ date: 2025-05-03
 permalink: /dermatologist-vs-esthetician-who-should-you-see/
 categories: [Skincare Advice]
 tags: [dermatologist, esthetician, skincare consultation, skin concerns]
-excerpt: "Confused between seeing a dermatologist or an esthetician? Here’s how to know who to book—based on your skin goals, not just your symptoms."
-last_modified_at: 2025-05-09
+excerpt: "Confused between seeing a dermatologist or an esthetician? Here's how to know who to book—based on your skin goals, not just your symptoms."
+last_modified_at: 2024-05-09
+schema:
+  "@type": "Article"
+  "mainEntityOfPage":
+    "@type": "WebPage"
+    "@id": "https://www.skincarewithsalmeen.com/dermatologist-vs-esthetician-who-should-you-see/"
+  "headline": "Dermatologist vs. Esthetician: Who Should You See for Your Skin?"
+  "image": "/assets/images/logo.png"
+  "author":
+    "@type": "Person"
+    "name": "Salmeen"
+  "publisher":
+    "@type": "Organization"
+    "name": "Skincare with Salmeen"
+    "logo":
+      "@type": "ImageObject"
+      "url": "/assets/images/logo.png"
+  "datePublished": "2024-05-03"
+  "dateModified": "2024-05-09"
 ---
 
 So you’re ready to get serious about your skin. But now you're stuck in the classic skincare question:
