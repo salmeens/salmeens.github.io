@@ -206,3 +206,46 @@ $link-color-visited: $secondary-accent-color;
 .nav__list {
   display: none !important;
 }
+
+.faq-item {
+  margin-bottom: 1.5rem;
+  border-bottom: 1px solid $border-color;
+  border-radius: $border-radius;
+  background: lighten($background-color, 2%);
+  box-shadow: 0 1px 4px rgba($secondary-accent-color, 0.03);
+}
+
+.faq-question {
+  background: none;
+  border: none;
+  font-family: $sans-serif;
+  font-weight: 600;
+  font-size: 1.15rem;
+  color: $secondary-accent-color;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+  padding: 1rem 0.5rem;
+  border-radius: $border-radius;
+  transition: background $transition-speed, color $transition-speed;
+  outline: none;
+}
+
+.faq-question.active {
+  background: $accent-color;
+  color: $white-text;
+}
+
+.faq-answer {
+  display: none;
+  padding: 1.0rem 0.5rem 0.5rem 0.5rem;
+  font-size: 1rem;
+  color: $text-color;
+  font-family: $serif;
+  border-radius: 0 0 $border-radius $border-radius;
+  background: transparent;
+}
+
+.faq-question.active + .faq-answer {
+  display: block;
+}
