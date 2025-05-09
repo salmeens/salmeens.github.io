@@ -1,14 +1,12 @@
 ---
 title: "How to Identify Your Skin Type (Without Guessing)"
-
 description: "Think you're oily but still feel dry? Here's how to actually figure out your real skin type—so you can stop wasting money on the wrong products."
-layout: single
-author: Salmeen
+date: 2025-05-05
+permalink: /how-to-identify-your-skin-type/
 categories: [Skincare Basics]
 tags: [skin type, skincare routine, personalized skincare, beginner skincare]
 excerpt: "Your skincare routine isn’t working because you’re treating the wrong skin type. Let’s fix that—no quizzes, no hype, just facts."
-date: 2025-05-05
-permalink: /how-to-identify-your-skin-type/
+last_modified_at: 2025-05-09
 ---
 
 If you’re using products designed for oily skin but your face still feels tight—there’s a good chance you’ve misdiagnosed your skin type. You’re not alone. Most people guess. And most people get it wrong.

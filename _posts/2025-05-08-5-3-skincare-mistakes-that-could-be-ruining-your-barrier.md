@@ -1,13 +1,12 @@
 ---
 title: "3 Skincare Mistakes That Could Be Ruining Your Barrier"
 description: "These common skincare mistakes silently sabotage your results. Here’s what to avoid—and how to fix your routine fast."
-layout: single
-author: Salmeen
+date: 2025-05-08
+permalink: /3-skincare-mistakes-that-could-be-ruining-your-barrier/
 categories: [Skincare Tips]
 tags: [skincare mistakes, skin barrier, sensitive skin, esthetician advice]
 excerpt: "You could be ruining your skin barrier without even realizing it. Here are 3 mistakes I see all the time—and how to avoid them."
-date: 2025-05-09
-permalink: /3-skincare-mistakes-that-could-be-ruining-your-barrier/
+last_modified_at: 2025-05-09
 ---
 
 You’re doing the double cleanse. You bought the serum. You’re trying your best.  
