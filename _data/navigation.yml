@@ -8,3 +8,5 @@ main:
     url: /ugc/
   - title: "About"
     url: /about/
+  - title: "Blog"
+    url: /posts/

@@ -14,7 +14,7 @@ header:
 <div class="brand-section">
   <h1 class="brand-heading">About Me</h1>
 
-  <p class="brand-text">I'm Salmeen—a licensed esthetician with a background in nanotechnology and over five years of experience as a skincare consultant. I specialize in sensitive skin, barrier repair, and helping people build custom skincare routines that actually work.</p>
+  <p class="brand-text">I'm Salmeen—a licensed esthetician with a background in nanotechnology, chemistry, and over five years of experience as a skincare consultant. I specialize in sensitive skin, barrier repair, and helping people build custom skincare routines that actually work.</p>
 
   <p class="brand-text">What started as a fascination with how ingredients interact with the skin evolved into a mission: making skincare simple, science-backed, and personal. My approach blends evidence-based skincare with empathy—because real results come from real understanding, not hype.</p>
 

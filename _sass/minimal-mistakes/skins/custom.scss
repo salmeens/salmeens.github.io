@@ -198,6 +198,11 @@ $link-color-visited: $secondary-accent-color;
 
 @media (max-width: 600px) {
   .brand-form iframe {
-    height: 4800px;
+    height: 4500px;
   }
+}
+
+/* Hide the 'Toggle Menu' button on mobile */
+.nav__list {
+  display: none !important;
 }

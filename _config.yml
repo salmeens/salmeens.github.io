@@ -30,6 +30,14 @@ social:
 
 google_analytics: G-7H6BJJQR40
 
+share:
+  provider: "social-share"
+  target: "_blank"
+  social_share:
+    - "linkedin"
+    - "twitter"
+    - "facebook"
+
 # Site Author
 author:
   name: "Salmeen"
@@ -117,6 +125,20 @@ plugins:
 
 # Defaults
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      show_date: true 
+      comments: false
+      share: true
+      related: true
+      sidebar:
+        nav: "none"  # This disables navigation in sidebar for posts
   # _pages
   - scope:
       path: ""
